@@ -1,4 +1,4 @@
-# PEP 750 - Template Strings 使用示簵
+# PEP 750 - Template Strings 使用示範
 
 這個源碼庫放了 YouTube 頻道「[我哋講開][hkfosschat]」內
 [其中一集][hkfosschat-episode]使用的指令及代碼。
