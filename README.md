@@ -4,7 +4,7 @@
 [其中一集][hkfosschat-episode]使用的指令及代碼。
 
 
-## 檔案
+## 示範代碼
 
 這些檔案包含影片示範大的代碼，新的 t-string 需要用 Python 3.14
 （或者它的 rc 版本）運行：
@@ -14,7 +14,7 @@
 - [demo3.py](demo3.py)：示範使用 t-string 處理 SQL 的一個解法
 
 
-## 如何使用 Docker 執行 Python 3.14rc
+### 如何使用 Docker 執行 Python 3.14rc
 
 如果你懂得安裝及使用 [Docker][docker-get-started], 你可以
 使用 Docker 去執行官方發佈的 Python 3.14rc image：
@@ -33,9 +33,9 @@ docker run -it --rm python:"3.14-rc"
 docker run -it --rm python:"3.14-rc" bash
 ```
 
-## 如何安裝 sqlescapy
+### 如何安裝 sqlescapy
 
-[demo2.py](demo2.py) 及 [demo3.py](demo3.py) 需要使用 [sqlescapy][sqlescapy]
+[demo2.py](demo2.py) 及 [demo3.py](demo3.py) 需要用 [sqlescapy][sqlescapy]
 套件（目前的版本是 1.0.1），pip 安裝指令：
 
 ```bash
@@ -47,6 +47,15 @@ pip install sqlescapy
 ```bash
 pip install sqlescapy==1.0.1
 ```
+
+## 發行授權 (License)
+
+本源碼庫採用 MIT License 授權，若果在其他地方使用，除了需要保留這個授權外，幾​乎沒有其他使用限制。
+
+雖然不強制，但歡迎使用這裏的代碼同時，註明出處。
+
+有關 MIT License 的詳細授權條款，請參考檔案 [LICENSE.md](LICENSE.md)。
+
 
 [hkfosschat]: https://www.youtube.com/@hkfosschat
 [hkfosschat-episode]: https://youtu.be/Gyr3sluwUJE
